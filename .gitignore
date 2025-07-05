@@ -22,6 +22,7 @@ env/
 # IDE specific files (e.g., VSCode, PyCharm)
 .vscode/
 .idea/
+.vscode
 
 # MacOS specific files
 .DS_Store
