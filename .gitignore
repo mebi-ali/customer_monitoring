@@ -1,0 +1,83 @@
+# Python bytecode files
+*.py[cod]
+__pycache__/
+
+# Virtual environment directories
+venv/
+env/
+.venv/
+
+# Django migration files
+*.log
+*.pot
+*.pyc
+*.pyo
+*.db
+*.sqlite3
+
+# Django settings (typically, sensitive files like .env should not be committed)
+.env
+*.env
+
+# IDE specific files (e.g., VSCode, PyCharm)
+.vscode/
+.idea/
+
+# MacOS specific files
+.DS_Store
+
+# Windows specific files
+Thumbs.db
+
+# Jupyter Notebooks checkpoints
+.ipynb_checkpoints/
+
+# Static and media files (only include if they are not in a static/ folder)
+staticfiles/
+media/
+
+# Coverage reports
+.coverage
+coverage.xml
+*.cover
+
+# Test and temporary files
+*.bak
+*.swp
+*.swo
+*.orig
+*.rej
+
+# Docker-related files (if applicable)
+Dockerfile
+docker-compose.yml
+
+# PyInstaller build files (if applicable)
+build/
+dist/
+*.spec
+
+# tox, nosetests, and coverage testing tool files (if applicable)
+*.tox/
+*.nox/
+*.coverage/
+*.hypothesis/
+*.pytest_cache/
+
+# Secrets and API Keys (if you're storing them locally)
+*.key
+*.pem
+
+# Database files (SQLite, PostgreSQL dumps, etc.)
+*.sqlite3
+*.db
+
+# Logs and temporary files
+*.log
+*.tmp
+
+# Celery beat schedule file (if using Celery)
+celerybeat-schedule
+
+# PyCharm project files
+.idea/

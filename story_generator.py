@@ -202,7 +202,6 @@ class StoryGenerator:
 
             Output ONLY the story text. [/INST]
         """)
-
     def _check_ollama_connection(self) -> bool:
         """Verify Ollama server is running"""
         try:
