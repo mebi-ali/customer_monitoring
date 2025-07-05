@@ -1,0 +1,17 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: Current File",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "python": "/home/dell/Desktop/external/self-anaylsis/.venv/bin/python",
+            "cwd": "/home/dell/Desktop/external/self-anaylsis/src",
+            "env": {
+                "PYTHONPATH": "/home/dell/Desktop/external/self-anaylsis/src"
+            },
+            "console": "integratedTerminal"
+        }
+    ]
+}
